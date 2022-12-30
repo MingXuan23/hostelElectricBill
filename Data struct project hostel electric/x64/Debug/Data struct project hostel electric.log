@@ -1,0 +1,6 @@
+﻿  Data struct project hostel electric.cpp
+C:\Users\User\source\repos\Data struct project hostel electric\Data struct project hostel electric\Hostel.h(141,20): warning C4101: 'e': unreferenced local variable
+C:\Users\User\source\repos\Data struct project hostel electric\Data struct project hostel electric\Hostel.h(124): message : while compiling class template member function 'void Hostel<HostelRoom>::Tranverse(void)'
+C:\Users\User\source\repos\Data struct project hostel electric\Data struct project hostel electric\Data struct project hostel electric.cpp(77): message : see reference to function template instantiation 'void Hostel<HostelRoom>::Tranverse(void)' being compiled
+C:\Users\User\source\repos\Data struct project hostel electric\Data struct project hostel electric\Data struct project hostel electric.cpp(9): message : see reference to class template instantiation 'Hostel<HostelRoom>' being compiled
+  Data struct project hostel electric.vcxproj -> C:\Users\User\source\repos\Data struct project hostel electric\x64\Debug\Data struct project hostel electric.exe
