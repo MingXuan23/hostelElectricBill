@@ -83,7 +83,7 @@ void Hostel<T>::setChargeRate() {
 	cout << "Current Charge Rate : " << getChargeRate() << " per KWh" << endl;
 	do {
 		cont = false;
-		cout << "Please enter latest Charge Rate : RM";S
+		cout << "Please enter latest Charge Rate : RM";
 		cin >> a;
 		if (cin.fail()||a<0)
 		{
@@ -126,7 +126,7 @@ void Hostel<T>::Tranverse() {
 	int i = 0;
 	try {
 		cout << setfill('-') << setw(45)  << '\n';
-		cout << "|"<<setfill(' ') << setw(12) << "Room " << "|" << setw(10) << "kWh used" << "|" << setw(18) << "Electric Bill (RM)" << "|" << endl;
+		cout << "|"<<setfill(' ') << setw(12) << "Room No" << "|" << setw(10) << "kWh used" << "|" << setw(18) << "Electric Bill (RM)" << "|" << endl;
 		cout << setfill('-') << setw(45)  << '\n';
 		while (pCurr!= NULL && i++ < numRoom)
 		{
@@ -189,7 +189,7 @@ void Hostel<T>::searchRoom() {
 	bubbleSort("Sort by Address");
 	string key;
 	bool found = 0;
-	cout << "Enter the room no: ";
+	cout << "Enter the room no (Exp:K-1-1): ";
 	cin >> key;
 	for (int i = 0; i < key.length(); i++)
 		key[i] = toupper(key[i]);
@@ -227,7 +227,7 @@ void Hostel<T>::searchRoom(string a) {
 	bubbleSort("Sort by Address");
 	string key;
 	bool found = 0;
-	cout << "Enter the room no: ";
+	cout << "Enter the room no (Exp:K-1-1): ";
 	cin >> key;
 	for (int i = 0; i < key.length(); i++)
 		key[i] = toupper(key[i]);
